@@ -3,19 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
-#inner{
+/* .box{
     width: 250px;
     height: 250px;
+}
+#inner{
     background-color: aqua;
 }
 #inner2{
-    width: 250px;
-    height: 250px;
     background-color: rgb(180, 248, 162);
+}
+#inner3{
+    background-color: royalblue;
 }
 body{
     background-color: black;
 }
 h1{
     color: white;
+} */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: lightseagreen;
+    color: darkred;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 51px;
+    list-style-type: none;
+}
+h1{
+    display: flex;
+    text-align: center;
 }

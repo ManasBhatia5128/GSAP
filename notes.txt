@@ -4,3 +4,7 @@ gsap.from() -> final to inital
 stagger: kitne time baad dusri ki baari start krni hai, no matter pehle wala complete hua hai ki nhi, can also be negative to function in reverse order
 repeat: kitni baar *aur* chalega, val -1: chalta hi reahegax
 yoyo: from to alternatively chalane ke liye
+timeline: used for syncronising the animations ie ek ke baad hi dusri chale
+
+Why use scrollTrigger:
+we want the animation to run when the user has scrolled the page to a particular point, eg run an animation only when the user reaches page2 after scrolling
